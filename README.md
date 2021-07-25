@@ -12,7 +12,8 @@ better-waseda-moodle for apps.
 8~10月　バックエンド（moodleの情報取得とセッション保持等）
 
 # 基本言語
-Kotlin
+Kotlin ＝＞type script 
+元言語との対応及びクロスプラットフォーム化のしやすさを求める
 
 # 基本環境
 windows10 
