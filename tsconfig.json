@@ -1,6 +1,12 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
-    "strict": true
+    "strict": true,
+    "module": "commonjs",      /* モジュールコード生成: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015',または 'ESNext'を指定します。 */
+    "noImplicitAny": true,     /* 暗黙の 'any'型で式と宣言のエラーを発生させます。 */
+    "strictNullChecks": true,  /* 厳密なヌルチェックを有効にします。 */
+    "noImplicitThis": true,    /* 暗黙の 'any'型で 'this'式のエラーを発生させます。 */
+    "esModuleInterop": true    /* デフォルトのエクスポートがないモジュールからのデフォルトのインポートを許可します。これはコードの出力には影響しません。型検査だけです。 */
+
   }
 }
