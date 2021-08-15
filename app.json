@@ -27,6 +27,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "test init\n",
+    "githubUrl": "https://github.com/Reyt0m/better-waseda-moodle-for-app.git"
   }
 }
