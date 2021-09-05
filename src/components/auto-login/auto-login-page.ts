@@ -3,6 +3,7 @@ import { MessengerClient } from '../common/util/messenger';
 
 const elemMessage = document.getElementById('message');
 const btnGotoFallbackPage = document.getElementById('gotoFallbackPage');
+
 if (!elemMessage || !btnGotoFallbackPage) throw new InternalError('unexpected error');
 
 document.title = browser.i18n.getMessage('autoLoginPageTitle');
