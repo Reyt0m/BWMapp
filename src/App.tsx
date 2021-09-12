@@ -13,6 +13,10 @@ const  App: React.FC = () => {
 
   return (
     <>
+{/* ログイン用メールアドレスとパスワードの入力 */}
+
+
+{/* web viewによるwaseda moodle 表示 */}
       <StatusBar barStyle="dark-content" />
       <SafeAreaView style={{ flex: 1 }}>
         <WebView
@@ -167,3 +171,7 @@ const  App: React.FC = () => {
 //     paddingBottom: 24,
 //   },
 // });
+
+export default App;
+
+// ボタンをいくつか用意し、moodle画面の他にも、履歴書を書き込む場所への繊維と、設定画面を用意する。s
