@@ -1,10 +1,13 @@
 import { InternalError } from '../common/error';
 import { MessengerClient } from '../common/util/messenger';
 
+// メッセージの指定
 const elemMessage = document.getElementById('message');
 const btnGotoFallbackPage = document.getElementById('gotoFallbackPage');
 
+// エラー処理
 if (!elemMessage || !btnGotoFallbackPage) throw new InternalError('unexpected error');
+
 
 document.title = browser.i18n.getMessage('autoLoginPageTitle');
 elemMessage.textContent = browser.i18n.getMessage('autoLoginPageMessage');
